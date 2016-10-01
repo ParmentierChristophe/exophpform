@@ -1,0 +1,90 @@
+html, body, .back {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+body{
+  background: #1f253d;
+}
+
+
+.container {
+
+  font-family: 'Amatic SC', cursive;
+  background: #394264;
+  overflow: hidden;
+  width: 400px;
+  padding:25px;
+  height: 720px;
+  min-height: 300px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: solid 0px #fff;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+input[type=text] {
+  font-family: 'Amatic SC', cursive;
+  display: block;
+  width: 320px;
+  height: 50px;
+  margin: 10px auto;
+  /*padding-left: 45px;*/
+  background: #50597b;
+  color: #fff;
+  border: solid 1px #1f253d;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+}
+
+.button {
+  font-family: 'Amatic SC', cursive;
+  display: block;
+  width: 175px;
+  line-height: 50px;
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 5px;
+  background: #e64c65;
+  border: 0px solid #e64c65;
+  color: #fff;
+  text-transform: uppercase;
+
+
+}
+
+.title {
+  color:red;
+  font-weight: bolder;
+
+}
+
+.title2 {
+  color: green;
+  font-weight: bolder;
+}
+
+select {
+  font-weight: bolder;
+  background-color: #50597b;
+color: #fff;
+font-family: 'Amatic SC', cursive;
+border: solid 1px #1f253d;
+border-radius: 5px;
+font-size: 25px;
+text-align: center;
+padding: 10px 0 10px 0;
+width: 320px;
+}
